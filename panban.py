@@ -5,7 +5,7 @@ def addWork(site, project, pnum=1, integral=0):
         print('地点不能为空！')
         return
     if project == '':
-        print('工作内容不能为空！')
+        print('工作内容不能为空！哈哈！')
         return
     if pnum < 0:
         print(('人数必须大于或等于1'))
